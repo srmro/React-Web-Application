@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    background-color:#D4CA96
+    
+}
+
+.header-container{
+    text-align: center;
+    padding: 20px;
+}
+
+.nav-bar{
+    overflow: hidden;
+    padding: 15px;
+    background-color: #CAAA56 ;
+}
+
+.nav-bar a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    background-color: #D2BD77;
+    color:#B12001;
+}
+
+.savory{
+    width: 250px;
+}
+
+.recipe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.recipe-article{
+text-align: center;
+height: 440px;
+
+
+
+}
+
+
+
+
+.recipe-pictures{
+    width: 350px;
+    height: 350px;
+
+}
+
+hr {
+}
+
