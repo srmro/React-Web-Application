@@ -1,20 +1,29 @@
-import RecipeData from '../components/RecipeData'
+import { useState } from 'react';
+import {Routes, Route} from 'react-router-dom';
 import '../App.css';
-import Header from '../components/Header';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Instructions from '../components/Details';
+import NavBar from '../components/NavBar';
+import RecipeData from '../components/RecipeData'
+import MyCookBook from '../components/MyCookBook';
+import Details from '../components/Details';
+
 
 function App() {
 
   return (
-    <div>
-      {/* <Header />
-<RecipeData /> */}
+  <div>
+<NavBar />
+<Routes>
 
-<Instructions/>
+<Route path="/" element= {<RecipeData/>} />
+<Route path="/about" element = {<About/>} />
+<Route path="/mycookbook" element={<MyCookBook/>}/>
+<Route path="/details/:id" element={<Details/>} />
 
-    </div>
+</Routes>
 
+
+
+  </div>
   )
 }
 
