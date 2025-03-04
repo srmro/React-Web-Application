@@ -1,9 +1,25 @@
 SBA 320H - REACT WEB APPLICATION PROJECT
 
 
-Website Application Name: Fosfora
+Website Application Name: Pasta Craze
+A React Web Application that helps pasta lovers explore new recipes
 
-Fosfora means phosphorus
+Max up to fifteen recipes!
+
+Used useState, and useEffect to keep the program updating and running at your convenience!
+Application should demonstrate the website with the data in a format of a row!
+
+Have applied pathways which is 
+
+-"/" = the homepage
+
+
+-"/MyCookBook" = Saved recipes when a recipe is added to cook book
+
+
+-"/About" = What the website is about
+
+-"/Instructions/:id" = When the link is clicked on homepage, you'll be redirected to the details in preparing a pasta of your choice!
 
 
 
@@ -13,11 +29,27 @@ Fosfora means phosphorus
 
 
 Requirements
+
+
 -Built with HTML, CSS, Javascript, REACT, and some hook
+
+
 -Hosted on Netlify
+
+
 -Include a README.md
+
+    
     -Explains the technologies used
+    
+    
     -Approaches taken
+    
+    
     -A link to your live site
+    
+    
     -Instructions
+    
+    
     -Unsolved problems.
