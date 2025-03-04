@@ -2,6 +2,7 @@ SBA 320H - REACT WEB APPLICATION PROJECT
 
 
 Website Application Name: Pasta Craze
+Hosted on Netlify: https://pasta-craze.netlify.app/
 A React Web Application that helps pasta lovers explore new recipes
 
 Max up to fifteen recipes!
