@@ -14,12 +14,12 @@ Have applied pathways which is
 -"/" = the homepage
 
 
--"/MyCookBook" = Saved recipes when a recipe is added to cook book
+-"/mycookbook" = Saved recipes when a recipe is added to cook book
 
 
--"/About" = What the website is about
+-"/about" = What the website is about
 
--"/Instructions/:id" = When the link is clicked on homepage, you'll be redirected to the details in preparing a pasta of your choice!
+-"/instructions/:id" = When the link is clicked on homepage, you'll be redirected to the details in preparing a pasta of your choice!
 
 
 
