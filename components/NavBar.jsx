@@ -4,10 +4,10 @@ const NavBar = () => {
   return (
     <div>
             <nav className='nav-bar'>
-                    <a href='#icon'><GiCampCookingPot/></a>
-                    <a href='#home'>Home</a>
-                    <a href='#about'>About</a>
-                    <a href='#cookbook'>My cookbook</a>
+                   <GiCampCookingPot/>
+                    <Link to='/'>Home</Link>
+                    <Link to='/about'>About</Link>
+                    <Link to='/cookbook'>My cookbook</Link>
                 </nav>
     </div>
   )
